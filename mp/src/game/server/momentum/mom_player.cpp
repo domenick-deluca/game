@@ -1741,7 +1741,7 @@ void CMomentumPlayer::TimerCommand_Restart(int track)
     }
 }
 
-void CMomentumPlayer::TimerCommand_Reset()
+void CMomentumPlayer::TimerCommand_RestartStage()
 {
     if (AllowUserTeleports())
     {
